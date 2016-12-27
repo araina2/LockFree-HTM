@@ -1,0 +1,384 @@
+$(GC_HARNESS_TARGETS	Makefile	/^$(GC_HARNESS_TARGETS): %: %.o set_harness.o ptst.o/
+%.o	Makefile	/^%.o: %.c $(COMMON_DEPS)$/
+ADD_TO	portable_defns.h	/^#define ADD_TO(_v,_x)                             /
+ALIGNED_ALLOC	portable_defns.h	/^#define ALIGNED_ALLOC(_s)                         /
+ALLOC	mcas.c	/^static void *ALLOC(int size)$/
+ALLOC_ALONE	mcas.c	/^static void *ALLOC_ALONE (int size)$/
+ALLOC_CHUNKS_PER_LIST	gc.c	52
+ARCH	Makefile	/^ARCH      := INTEL$/
+ARENA_SIZE	mcas.c	38
+ASFLAGS	Makefile	/^ASFLAGS     := -a64$/
+BLKS_PER_CHUNK	gc.c	78
+CACHE_LINE_SIZE	intel_defns.h	11
+CACHE_PAD	gc.c	/^    CACHE_PAD(0);$/
+CACHE_PAD	gc.c	/^    CACHE_PAD(1);$/
+CACHE_PAD	gc.c	/^    CACHE_PAD(2);$/
+CACHE_PAD	gc.c	/^    CACHE_PAD(3);$/
+CACHE_PAD	portable_defns.h	/^#define CACHE_PAD(_n) char __pad ## _n [CACHE_LINE/
+CACHE_PAD	set_harness.c	/^    CACHE_PAD(0);$/
+CACHE_PAD	set_harness.c	/^    CACHE_PAD(1);$/
+CACHE_PAD	set_harness.c	/^    CACHE_PAD(2);$/
+CALLER_TO_INTERNAL_KEY	set.h	/^#define CALLER_TO_INTERNAL_KEY(_k) ((_k) + 2)$/
+CAS32O	intel_defns.h	64
+CAS64O	intel_defns.h	65
+CASIO	intel_defns.h	/^#define CASIO(a,b,c) __sync_val_compare_and_swap(a/
+CASPO	intel_defns.h	/^#define CASPO(a,b,c) __sync_val_compare_and_swap(a/
+CC	Makefile	/^CC          := g++$/
+CC	Makefile	/^CC          := cc_r$/
+CC	Makefile	/^CC          := gcc$/
+CC	Makefile	/^CC          := gcc$/
+CC	Makefile	/^CC          := \/opt\/SUNWspro\/bin\/cc$/
+CC	Makefile	/^CC          := cc$/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DINTEL -fomit-frame-pointer -m/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DPPC -q64 -w$/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DIA64 -fomit-frame-pointer$/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DMIPS -fomit-frame-pointer$/
+CFLAGS	Makefile	/^CFLAGS      := -xO3 -DSPARC sparc_mcas.il -xarch=v/
+CFLAGS	Makefile	/^CFLAGS      := -accept vaxc_keywords -O3 -DALPHA$/
+CFLAGS      +	Makefile	/^CFLAGS      += -fomit-frame-pointer -DWEAK_MEM_ORD/
+CFLAGS      +	Makefile	/^CFLAGS      += $(DEBUGGING)$/
+CHUNKS_PER_ALLOC	gc.c	172
+CLEAR_BLOCKED	portable_defns.h	/^#define CLEAR_BLOCKED(_qn) ADD_TO((_qn)->state, -S/
+CLS_RD	portable_defns.h	240
+CLS_WR	portable_defns.h	241
+COMMON_DEPS +	Makefile	/^COMMON_DEPS += Makefile $(wildcard *.h)$/
+CasDescriptor	mcas.c	67
+CasDescriptor_t	mcas.c	32
+CasEntry	mcas.c	61
+CasEntry_t	mcas.c	33
+DEBUGGING	Makefile	/^DEBUGGING := -DNDEBUG$/
+ENTRIES_PER_RECLAIM_ATTEMPT	gc.c	58
+FALSE	portable_defns.h	35
+FAS	intel_defns.h	/^#define FAS(_a, _n)                               /
+FASIO	intel_defns.h	59
+FASPO	intel_defns.h	62
+GC_HARNESS_TARGETS	Makefile	/^GC_HARNESS_TARGETS := skip_lock_perlist skip_lock_/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += skip_cas skip_mcas$/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += bst_lock_fraser bst_lock_man/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += bst_mcas$/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += rb_lock_concurrentwriters rb/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += rb_lock_mutex$/
+INITIALISE_NODES	gc.c	/^#define INITIALISE_NODES(_p,_c) memset((_p), INVAL/
+INTEL	intel_defns.h	8
+INVALID_BYTE	gc.c	39
+INVALID_FIELD	set.h	50
+KEY_MAX	set.h	97
+KEY_MIN	set.h	96
+LDFLAGS	Makefile	/^LDFLAGS     := -pthread$/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread -q64$/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread$/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread$/
+LDFLAGS	Makefile	/^LDFLAGS     := -DSPARC sparc_mcas.il -xarch=v9b -l/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread $/
+LOG_KIND_FLOAT	set_harness.c	66
+LOG_KIND_INT	set_harness.c	64
+LOG_KIND_STRING	set_harness.c	65
+MARK_IN_PROGRESS	mcas.c	79
+MARK_PTR_TO_CD	mcas.c	82
+MAX_HOOKS	gc.c	45
+MAX_ITERATIONS	set_harness.c	51
+MAX_ITERATIONS	set_harness.c	54
+MAX_LOG_RECORDS	set_harness.c	62
+MAX_SIZES	gc.c	43
+MAX_THREADS	portable_defns.h	4
+MAX_WALL_TIME	set_harness.c	52
+MAX_WALL_TIME	set_harness.c	55
+MAYBE_GARBAGE	portable_defns.h	80
+MB	intel_defns.h	/^#define MB() __sync_synchronize \/\/__asm__ __volati/
+MB_NEAR_CAS	intel_defns.h	/^#define MB_NEAR_CAS()  WMB()$/
+MB_NEAR_CAS	portable_defns.h	/^#define MB_NEAR_CAS()  MB()$/
+MCAS_MARK	skip_mcas.c	/^#define MCAS_MARK(_v) ((unsigned long)(_v) & 3)$/
+MEM_FAIL	gc.c	/^#define MEM_FAIL(_s)                              /
+Mset_harness	set_harness.c	/^int main (int argc, char **argv)$/
+NR_EPOCHS	gc.c	67
+NR_EPOCHS	gc.c	69
+NUM_LEVELS	set.h	46
+PROCESS	skip_mcas.c	/^#define PROCESS(_v, _pv)                        \\$/
+RDTICK	intel_defns.h	/^#define RDTICK() \\$/
+READ_FIELD	portable_defns.h	/^#define READ_FIELD(_x,_f)                         /
+READ_FIELD	portable_defns.h	/^#define READ_FIELD(_x,_f) ((_x) = (_f))$/
+READ_FIELD	set.h	/^#define READ_FIELD(_x,_f)                         /
+READ_FIELD	set.h	/^#define READ_FIELD(_x,_f) ((_x) = (_f))$/
+RMB	intel_defns.h	/^#define RMB() MB()$/
+RMB_NEAR_CAS	intel_defns.h	/^#define RMB_NEAR_CAS() WMB()$/
+RMB_NEAR_CAS	portable_defns.h	/^#define RMB_NEAR_CAS() RMB()$/
+SENTINEL_KEYMAX	set.h	52
+SENTINEL_KEYMIN	set.h	51
+SIZEOF_GLOBAL_LOG	set_harness.c	158
+STATUS_ABORTED	mcas.c	59
+STATUS_FAILED	mcas.c	58
+STATUS_IN_PROGRESS	mcas.c	56
+STATUS_SUCCEEDED	mcas.c	57
+ST_BLOCKED	portable_defns.h	247
+ST_NOSUCC	portable_defns.h	243
+ST_RDSUCC	portable_defns.h	244
+ST_SUCCMASK	portable_defns.h	246
+ST_WRSUCC	portable_defns.h	245
+TARGETS	Makefile	/^TARGETS    := $(GC_HARNESS_TARGETS)$/
+TARGETS    +	Makefile	/^TARGETS    += rb_stm_fraser rb_stm_herlihy rb_stm_/
+TARGETS    +	Makefile	/^TARGETS    += skip_stm_fraser skip_stm_herlihy ski/
+THREAD_FLAGS	set_harness.c	346
+THREAD_TEST	set_harness.c	345
+TRUE	portable_defns.h	36
+TVAL	set_harness.c	/^#define TVAL(x) ((x.tv_sec * 1000000) + x.tv_usec)/
+VOLATILE	intel_defns.h	80
+WALK_THRU	skip_mcas.c	/^#define WALK_THRU(_v, _pv)                      \\$/
+WEAK_DEP_ORDER_MB	portable_defns.h	/^#define WEAK_DEP_ORDER_MB()  MB()$/
+WEAK_DEP_ORDER_MB	portable_defns.h	/^#define WEAK_DEP_ORDER_MB()  ((void)0)$/
+WEAK_DEP_ORDER_RMB	portable_defns.h	/^#define WEAK_DEP_ORDER_RMB() RMB()$/
+WEAK_DEP_ORDER_RMB	portable_defns.h	/^#define WEAK_DEP_ORDER_RMB() ((void)0)$/
+WEAK_DEP_ORDER_WMB	portable_defns.h	/^#define WEAK_DEP_ORDER_WMB() WMB()$/
+WEAK_DEP_ORDER_WMB	portable_defns.h	/^#define WEAK_DEP_ORDER_WMB() ((void)0)$/
+WMB	intel_defns.h	/^#define WMB(o) __asm__ __volatile__ ("" : : : "mem/
+WMB_NEAR_CAS	intel_defns.h	/^#define WMB_NEAR_CAS() WMB()$/
+WMB_NEAR_CAS	portable_defns.h	/^#define WMB_NEAR_CAS() WMB()$/
+YIELD_TO_HELP_PROGRESS	gc.c	35
+__GC_H__	gc.h	2
+__INTEL_DEFNS_H__	intel_defns.h	2
+__PORTABLE_DEFNS_H__	portable_defns.h	2
+__PTST_H__	ptst.h	10
+__RANDOM_H__	random.h	9
+__SET_H__	set.h	2
+__SET_IMPLEMENTATION__	skip_mcas.c	23
+_destroy_gc_subsystem	gc.c	/^void _destroy_gc_subsystem(void)$/
+_init_gc_subsystem	gc.c	/^void _init_gc_subsystem(void)$/
+_init_ptst_subsystem	ptst.c	/^void _init_ptst_subsystem(void) $/
+_init_set_subsystem	skip_mcas.c	/^void _init_set_subsystem(void)$/
+_u16	intel_defns.h	102
+_u32	intel_defns.h	103
+_u64	intel_defns.h	104
+_u8	intel_defns.h	101
+add_chunks_to_list	gc.c	/^static void add_chunks_to_list(chunk_t *ch, chunk_/
+alarm_handler	set_harness.c	/^static void alarm_handler( int arg)$/
+alarm_time	set_harness.c	183
+all	Makefile	/^all: $(TARGETS) replay$/
+alloc	gc.c	123
+alloc	gc.c	156
+alloc_chunks	gc.c	157
+alloc_more_chunks	gc.c	/^static chunk_t *alloc_more_chunks(void)$/
+alloc_node	skip_mcas.c	/^static node_t *alloc_node(ptst_t *ptst)$/
+alloc_size	gc.c	124
+allocations	gc.c	127
+arena	mcas.c	44
+arena_lim	mcas.c	45
+async_page	gc.c	147
+async_page_state	gc.c	148
+attr	set_harness.c	349
+blk	gc.c	84
+blk_sizes	gc.c	108
+bool_t	portable_defns.h	34
+cas_sz	mcas.c	93
+chunk_cache	gc.c	153
+chunk_from_cache	gc.c	/^static chunk_t *chunk_from_cache(gc_t *gc)$/
+chunk_st	gc.c	80
+chunk_t	gc.c	79
+clean	Makefile	/^clean:$/
+clean_descriptor	mcas.c	/^static void clean_descriptor (CasDescriptor_t *cd)/
+count	ptst.h	24
+critical_enter	ptst.c	/^ptst_t *critical_enter(void)$/
+critical_exit	ptst.h	/^#define critical_exit(_p) gc_exit(_p)$/
+current	gc.c	92
+done_time	set_harness.c	171
+done_tms	set_harness.c	172
+dump_log	set_harness.c	/^static void dump_log (void) {$/
+end	set_harness.c	154
+entries	mcas.c	73
+entries_since_reclaim	gc.c	139
+epoch	gc.c	136
+fc	mcas.c	72
+finish_delete	skip_mcas.c	/^static setval_t finish_delete(sh_node_pt x, sh_nod/
+free_chunks	gc.c	120
+free_node	skip_mcas.c	/^static void free_node(ptst_t *ptst, sh_node_pt n)$/
+garbage	gc.c	151
+garbage_tail	gc.c	152
+gc	ptst.h	26
+gc_add_allocator	gc.c	/^int gc_add_allocator(int alloc_size)$/
+gc_add_hook	gc.c	/^int gc_add_hook(hook_fn_t fn)$/
+gc_add_ptr_to_hook_list	gc.c	/^void gc_add_ptr_to_hook_list(ptst_t *ptst, void *p/
+gc_alloc	gc.c	/^void *gc_alloc(ptst_t *ptst, int alloc_id)$/
+gc_async_barrier	gc.c	/^static void gc_async_barrier(gc_t *gc)$/
+gc_async_barrier	gc.c	/^#define gc_async_barrier(_g) ((void)0)$/
+gc_enter	gc.c	/^void gc_enter(ptst_t *ptst)$/
+gc_exit	gc.c	/^void gc_exit(ptst_t *ptst)$/
+gc_free	gc.c	/^void gc_free(ptst_t *ptst, void *p, int alloc_id) /
+gc_global	gc.c	129
+gc_global_st	gc.c	87
+gc_id	skip_mcas.c	68
+gc_init	gc.c	/^gc_t *gc_init(void)$/
+gc_reclaim	gc.c	/^static void gc_reclaim(void)$/
+gc_remove_allocator	gc.c	/^void gc_remove_allocator(int alloc_id)$/
+gc_remove_hook	gc.c	/^void gc_remove_hook(int hook_id)$/
+gc_st	gc.c	133
+gc_t	gc.h	4
+gc_unsafe_free	gc.c	/^void gc_unsafe_free(ptst_t *ptst, void *p, int all/
+get_alloc_chunk	gc.c	/^static chunk_t *get_alloc_chunk(gc_t *gc, int i)$/
+get_empty_chunks	gc.c	/^static chunk_t *get_empty_chunks(int n)$/
+get_filled_chunks	gc.c	/^static chunk_t *get_filled_chunks(int n, int sz)$/
+get_interval	portable_defns.h	/^#define get_interval(_i)                          /
+get_level	skip_mcas.c	/^static int get_level(ptst_t *ptst)$/
+get_marked_ref	portable_defns.h	/^#define get_marked_ref(_p)      ((void *)(((unsign/
+get_marked_reference	mcas.c	/^#define get_marked_reference(p,m) ((void *) (((ptr/
+get_markedness	mcas.c	/^#define get_markedness(p) (((ptr_int) (p)) & 3)$/
+get_ptst	mcas.c	/^static per_thread_state_t *get_ptst (void)$/
+get_unmarked_ref	portable_defns.h	/^#define get_unmarked_ref(_p)    ((void *)(((unsign/
+get_unmarked_reference	mcas.c	/^#define get_unmarked_reference(p) ((void *) (((ptr/
+global_log	set_harness.c	159
+go	set_harness.c	162
+head	set.h	22
+hook	gc.c	160
+hook_fn_t	gc.h	27
+hook_fns	gc.c	112
+i	gc.c	83
+id	mcas.c	42
+id	ptst.h	20
+inreclaim	gc.c	96
+int_addr_t	portable_defns.h	32
+interval	set_harness.c	160
+interval_t	portable_defns.h	58
+is_marked_ref	portable_defns.h	/^#define is_marked_ref(_p)       (((unsigned long)(/
+k	set.h	15
+key	set_harness.c	155
+kind	set_harness.c	70
+length	mcas.c	69
+level	set.h	14
+locked	portable_defns.h	186
+log_float	set_harness.c	/^static void log_float (char *name, float val) {$/
+log_int	set_harness.c	/^static void log_int (char *name, int val) {$/
+log_max_key	set_harness.c	164
+log_record_t	set_harness.c	74
+log_records	set_harness.c	76
+log_st	set_harness.c	152
+log_string	set_harness.c	/^static void log_string (char *name, char *val) {$/
+log_t	set_harness.c	157
+max_key	set_harness.c	164
+mcas	mcas.c	/^bool_t mcas (int n, $/
+mcas0	mcas.c	/^static bool_t mcas0 (per_thread_state_t *ptst, Cas/
+mcas_fixup	mcas.c	/^static bool_t mcas_fixup (void **ptr,$/
+mcas_init	mcas.c	/^void mcas_init (void)$/
+mcas_ptst_key	mcas.c	49
+mcs_init	portable_defns.h	/^static void mcs_init(mcs_lock_t *lock)$/
+mcs_lock	portable_defns.h	/^static void mcs_lock(mcs_lock_t *lock, qnode_t *qn/
+mcs_lock_t	portable_defns.h	191
+mcs_unlock	portable_defns.h	/^static void mcs_unlock(mcs_lock_t *lock, qnode_t */
+mrsw_init	portable_defns.h	/^static void mrsw_init(mrsw_lock_t *lock)$/
+mrsw_lock_t	portable_defns.h	256
+mrsw_qnode_st	portable_defns.h	239
+mrsw_qnode_t	portable_defns.h	237
+name	set_harness.c	69
+new_val	mcas.c	64
+new_val_arena	mcas.c	/^static void new_val_arena (per_thread_state_t *pts/
+new_val_descriptor	mcas.c	/^static CasDescriptor_t *new_val_descriptor (per_th/
+next	gc.c	82
+next	portable_defns.h	185
+next	portable_defns.h	249
+next	ptst.h	23
+next	set.h	17
+next_descriptor	mcas.c	43
+next_id	ptst.c	35
+next_thread_id	mcas.c	113
+next_writer	portable_defns.h	254
+node_class	portable_defns.h	242
+node_st	set.h	12
+node_t	set.h	8
+nr_hooks	gc.c	111
+nr_sizes	gc.c	107
+nrand	set_harness.c	/^#define nrand(_r) (((_r) = (_r) * 1103515245) + 12/
+num_log_records	set_harness.c	78
+num_ptrs	mcas.c	94
+num_threads	set_harness.c	167
+old	mcas.c	63
+old_val	set_harness.c	156
+p0	mcas.c	92
+p1	mcas.c	96
+pad	mcas.c	51
+pad128	mcas.c	51
+pad128_t	mcas.c	51
+page_size	gc.c	104
+per_thread_state_t	mcas.c	34
+per_thread_state_t	mcas.c	40
+processors	set_harness.c	177
+proportion	set_harness.c	169
+pt	mcas.c	70
+pthread_mutex_init	intel_defns.h	/^#define pthread_mutex_init(_m,_i) \\$/
+ptr	mcas.c	62
+ptr_int	mcas.c	77
+ptr_mult	mcas.c	95
+ptst_destructor	ptst.c	/^static void ptst_destructor(ptst_t *ptst) $/
+ptst_first	ptst.h	/^#define ptst_first()  (ptst_list)$/
+ptst_key	ptst.c	32
+ptst_list	ptst.c	33
+ptst_next	ptst.h	/^#define ptst_next(_p) ((_p)->next)$/
+ptst_st	ptst.h	17
+ptst_t	ptst.h	12
+ptsts	mcas.c	114
+qnode_t	portable_defns.h	182
+qnode_t	portable_defns.h	184
+rand	ptst.h	27
+rand_init	random.h	/^#define rand_init(_ptst) \\$/
+rand_next	random.h	/^#define rand_next(_ptst) \\$/
+rand_t	random.h	11
+rb_stm_fraser	Makefile	/^rb_stm_fraser: rb_stm.o stm_fraser.o set_harness.o/
+rb_stm_herlihy	Makefile	/^rb_stm_herlihy: rb_stm.o stm_herlihy.o set_harness/
+rb_stm_lock	Makefile	/^rb_stm_lock: rb_stm.o stm_lock.o set_harness.o pts/
+rc	mcas.c	71
+rc_delta_descriptor	mcas.c	/^static int rc_delta_descriptor (CasDescriptor_t *c/
+rc_down_descriptor	mcas.c	/^static void rc_down_descriptor (CasDescriptor_t *c/
+rc_up_descriptor	mcas.c	/^static void rc_up_descriptor (CasDescriptor_t *cd)/
+rd_lock	portable_defns.h	/^static void rd_lock(mrsw_lock_t *lock, mrsw_qnode_/
+rd_unlock	portable_defns.h	/^static void rd_unlock(mrsw_lock_t *lock, mrsw_qnod/
+read_barrier	mcas.c	/^static void *read_barrier (void **ptr)$/
+read_barrier_lite	mcas.c	/^static void *read_barrier_lite (void **ptr)$/
+read_from_cd	mcas.c	/^static void *read_from_cd (void **ptr, CasDescript/
+reader_count	portable_defns.h	255
+reclaim_attempts_since_yield	gc.c	143
+release_descriptor	mcas.c	/^static void release_descriptor (CasDescriptor_t *c/
+replay	Makefile	/^replay: %: %.c $(COMMON_DEPS)$/
+s_load	portable_defns.h	/^static unsigned int s_load(unsigned long long *ptr/
+s_store	portable_defns.h	/^static void s_store(unsigned long long *ptr, unsig/
+search_predecessors	skip_mcas.c	/^extern "C" sh_node_pt search_predecessors($/
+set	set_harness.c	185
+set_alloc	skip_mcas.c	/^set_t *set_alloc(void)$/
+set_lookup	skip_mcas.c	/^setval_t set_lookup(set_t *l, setkey_t k)$/
+set_remove	skip_mcas.c	/^setval_t set_remove(set_t *l, setkey_t k)$/
+set_st	set.h	20
+set_t	set.h	9
+set_update	skip_mcas.c	/^setval_t set_update(set_t *l, setkey_t k, setval_t/
+setkey_t	set.h	5
+setval_t	set.h	6
+sh_node_pt	set.h	10
+shared	set_harness.c	187
+skip_lock_perlist.o	Makefile	/^skip_lock_perlist.o: skip_lock.c $(COMMON_DEPS)$/
+skip_lock_pernode.o	Makefile	/^skip_lock_pernode.o: skip_lock.c $(COMMON_DEPS)$/
+skip_lock_perpointer.o	Makefile	/^skip_lock_perpointer.o: skip_lock.c $(COMMON_DEPS)/
+skip_mcas.o	Makefile	/^skip_mcas.o: skip_mcas.c mcas.c $(COMMON_DEPS)$/
+skip_stm_fraser	Makefile	/^skip_stm_fraser: skip_stm.o stm_fraser.o set_harne/
+skip_stm_herlihy	Makefile	/^skip_stm_herlihy: skip_stm.o stm_herlihy.o set_har/
+skip_stm_lock	Makefile	/^skip_stm_lock: skip_stm.o stm_lock.o set_harness.o/
+start	set_harness.c	154
+start_time	set_harness.c	171
+start_tms	set_harness.c	172
+state	portable_defns.h	248
+status	mcas.c	68
+strong_ll	portable_defns.h	/^static unsigned int strong_ll(unsigned long long */
+strong_sc	portable_defns.h	/^static int strong_sc(unsigned long long *ptr, int /
+strong_vl	portable_defns.h	/^static int strong_vl(unsigned long long *ptr, int /
+successes	set_harness.c	174
+tail	portable_defns.h	190
+tail	portable_defns.h	253
+test_multithreaded	set_harness.c	/^static void test_multithreaded (void)$/
+thread_start	set_harness.c	/^static void *thread_start(void *arg)$/
+threads_initialised1	set_harness.c	163
+threads_initialised2	set_harness.c	165
+threads_initialised3	set_harness.c	166
+tick_t	intel_defns.h	92
+total_size	gc.c	126
+tree_mcas.o	Makefile	/^tree_mcas.o: tree_mcas.c mcas.c $(COMMON_DEPS)$/
+tstp_handler	set_harness.c	/^static void tstp_handler(int sig, siginfo_t *info,/
+tv	skip_mcas	16
+v	set.h	16
+val	set_harness.c	156
+val_float	set_harness.c	73
+val_int	set_harness.c	71
+val_string	set_harness.c	72
+wr_lock	portable_defns.h	/^static void wr_lock(mrsw_lock_t *lock, mrsw_qnode_/
+wr_unlock	portable_defns.h	/^static void wr_unlock(mrsw_lock_t *lock, mrsw_qnod/

@@ -1,0 +1,803 @@
+$(GC_HARNESS_TARGETS	Makefile	/^$(GC_HARNESS_TARGETS): %: %.o set_harness.o ptst.o/
+%.o	Makefile	/^%.o: %.c $(COMMON_DEPS)$/
+.L100	bst_mcas.s	/^.L100:$/
+.L101	bst_mcas.s	/^.L101:$/
+.L102	bst_mcas.s	/^.L102:$/
+.L103	bst_mcas.s	/^.L103:$/
+.L104	bst_mcas.s	/^.L104:$/
+.L105	bst_mcas.s	/^.L105:$/
+.L109	bst_mcas.s	/^.L109:$/
+.L11	bst_mcas.s	/^.L11:$/
+.L111	bst_mcas.s	/^.L111:$/
+.L112	bst_mcas.s	/^.L112:$/
+.L115	bst_mcas.s	/^.L115:$/
+.L116	bst_mcas.s	/^.L116:$/
+.L120	bst_mcas.s	/^.L120:$/
+.L121	bst_mcas.s	/^.L121:$/
+.L122	bst_mcas.s	/^.L122:$/
+.L123	bst_mcas.s	/^.L123:$/
+.L125	bst_mcas.s	/^.L125:$/
+.L126	bst_mcas.s	/^.L126:$/
+.L128	bst_mcas.s	/^.L128:$/
+.L129	bst_mcas.s	/^.L129:$/
+.L132	bst_mcas.s	/^.L132:$/
+.L134	bst_mcas.s	/^.L134:$/
+.L138	bst_mcas.s	/^.L138:$/
+.L139	bst_mcas.s	/^.L139:$/
+.L140	bst_mcas.s	/^.L140:$/
+.L141	bst_mcas.s	/^.L141:$/
+.L142	bst_mcas.s	/^.L142:$/
+.L143	bst_mcas.s	/^.L143:$/
+.L147	bst_mcas.s	/^.L147:$/
+.L155	bst_mcas.s	/^.L155:$/
+.L160	bst_mcas.s	/^.L160:$/
+.L161	bst_mcas.s	/^.L161:$/
+.L162	bst_mcas.s	/^.L162:$/
+.L163	bst_mcas.s	/^.L163:$/
+.L164	bst_mcas.s	/^.L164:$/
+.L165	bst_mcas.s	/^.L165:$/
+.L167	bst_mcas.s	/^.L167:$/
+.L172	bst_mcas.s	/^.L172:$/
+.L175	bst_mcas.s	/^.L175:$/
+.L177	bst_mcas.s	/^.L177:$/
+.L179	bst_mcas.s	/^.L179:$/
+.L18	bst_mcas.s	/^.L18:$/
+.L180	bst_mcas.s	/^.L180:$/
+.L182	bst_mcas.s	/^.L182:$/
+.L184	bst_mcas.s	/^.L184:$/
+.L185	bst_mcas.s	/^.L185:$/
+.L186	bst_mcas.s	/^.L186:$/
+.L189	bst_mcas.s	/^.L189:$/
+.L191	bst_mcas.s	/^.L191:$/
+.L193	bst_mcas.s	/^.L193:$/
+.L194	bst_mcas.s	/^.L194:$/
+.L195	bst_mcas.s	/^.L195:$/
+.L197	bst_mcas.s	/^.L197:$/
+.L20	bst_mcas.s	/^.L20:$/
+.L21	bst_mcas.s	/^.L21:$/
+.L22	bst_mcas.s	/^.L22:$/
+.L226	bst_mcas.s	/^.L226:$/
+.L227	bst_mcas.s	/^.L227:$/
+.L230	bst_mcas.s	/^.L230:$/
+.L231	bst_mcas.s	/^.L231:$/
+.L232	bst_mcas.s	/^.L232:$/
+.L233	bst_mcas.s	/^.L233:$/
+.L236	bst_mcas.s	/^.L236:$/
+.L238	bst_mcas.s	/^.L238:$/
+.L24	bst_mcas.s	/^.L24:$/
+.L240	bst_mcas.s	/^.L240:$/
+.L241	bst_mcas.s	/^.L241:$/
+.L243	bst_mcas.s	/^.L243:$/
+.L245	bst_mcas.s	/^.L245:$/
+.L246	bst_mcas.s	/^.L246:$/
+.L247	bst_mcas.s	/^.L247:$/
+.L248	bst_mcas.s	/^.L248:$/
+.L249	bst_mcas.s	/^.L249:$/
+.L250	bst_mcas.s	/^.L250:$/
+.L251	bst_mcas.s	/^.L251:$/
+.L252	bst_mcas.s	/^.L252:$/
+.L254	bst_mcas.s	/^.L254:$/
+.L255	bst_mcas.s	/^.L255:$/
+.L257	bst_mcas.s	/^.L257:$/
+.L258	bst_mcas.s	/^.L258:$/
+.L26	bst_mcas.s	/^.L26:$/
+.L260	bst_mcas.s	/^.L260:$/
+.L262	bst_mcas.s	/^.L262:$/
+.L263	bst_mcas.s	/^.L263:$/
+.L264	bst_mcas.s	/^.L264:$/
+.L266	bst_mcas.s	/^.L266:$/
+.L268	bst_mcas.s	/^.L268:$/
+.L269	bst_mcas.s	/^.L269:$/
+.L270	bst_mcas.s	/^.L270:$/
+.L271	bst_mcas.s	/^.L271:$/
+.L272	bst_mcas.s	/^.L272:$/
+.L273	bst_mcas.s	/^.L273:$/
+.L274	bst_mcas.s	/^.L274:$/
+.L275	bst_mcas.s	/^.L275:$/
+.L277	bst_mcas.s	/^.L277:$/
+.L279	bst_mcas.s	/^.L279:$/
+.L28	bst_mcas.s	/^.L28:$/
+.L280	bst_mcas.s	/^.L280:$/
+.L281	bst_mcas.s	/^.L281:$/
+.L283	bst_mcas.s	/^.L283:$/
+.L285	bst_mcas.s	/^.L285:$/
+.L287	bst_mcas.s	/^.L287:$/
+.L289	bst_mcas.s	/^.L289:$/
+.L290	bst_mcas.s	/^.L290:$/
+.L291	bst_mcas.s	/^.L291:$/
+.L292	bst_mcas.s	/^.L292:$/
+.L293	bst_mcas.s	/^.L293:$/
+.L294	bst_mcas.s	/^.L294:$/
+.L295	bst_mcas.s	/^.L295:$/
+.L296	bst_mcas.s	/^.L296:$/
+.L298	bst_mcas.s	/^.L298:$/
+.L299	bst_mcas.s	/^.L299:$/
+.L3	bst_mcas.s	/^.L3:$/
+.L300	bst_mcas.s	/^.L300:$/
+.L302	bst_mcas.s	/^.L302:$/
+.L304	bst_mcas.s	/^.L304:$/
+.L305	bst_mcas.s	/^.L305:$/
+.L306	bst_mcas.s	/^.L306:$/
+.L31	bst_mcas.s	/^.L31:$/
+.L32	bst_mcas.s	/^.L32:$/
+.L35	bst_mcas.s	/^.L35:$/
+.L36	bst_mcas.s	/^.L36:$/
+.L38	bst_mcas.s	/^.L38:$/
+.L39	bst_mcas.s	/^.L39:$/
+.L390	bst_mcas.s	/^.L390:$/
+.L392	bst_mcas.s	/^.L392:$/
+.L395	bst_mcas.s	/^.L395:$/
+.L396	bst_mcas.s	/^.L396:$/
+.L397	bst_mcas.s	/^.L397:$/
+.L398	bst_mcas.s	/^.L398:$/
+.L399	bst_mcas.s	/^.L399:$/
+.L400	bst_mcas.s	/^.L400:$/
+.L403	bst_mcas.s	/^.L403:$/
+.L404	bst_mcas.s	/^.L404:$/
+.L405	bst_mcas.s	/^.L405:$/
+.L406	bst_mcas.s	/^.L406:$/
+.L407	bst_mcas.s	/^.L407:$/
+.L408	bst_mcas.s	/^.L408:$/
+.L409	bst_mcas.s	/^.L409:$/
+.L41	bst_mcas.s	/^.L41:$/
+.L410	bst_mcas.s	/^.L410:$/
+.L412	bst_mcas.s	/^.L412:$/
+.L413	bst_mcas.s	/^.L413:$/
+.L415	bst_mcas.s	/^.L415:$/
+.L416	bst_mcas.s	/^.L416:$/
+.L418	bst_mcas.s	/^.L418:$/
+.L420	bst_mcas.s	/^.L420:$/
+.L422	bst_mcas.s	/^.L422:$/
+.L423	bst_mcas.s	/^.L423:$/
+.L424	bst_mcas.s	/^.L424:$/
+.L425	bst_mcas.s	/^.L425:$/
+.L426	bst_mcas.s	/^.L426:$/
+.L43	bst_mcas.s	/^.L43:$/
+.L44	bst_mcas.s	/^.L44:$/
+.L444	bst_mcas.s	/^.L444:$/
+.L46	bst_mcas.s	/^.L46:$/
+.L47	bst_mcas.s	/^.L47:$/
+.L51	bst_mcas.s	/^.L51:$/
+.L52	bst_mcas.s	/^.L52:$/
+.L53	bst_mcas.s	/^.L53:$/
+.L55	bst_mcas.s	/^.L55:$/
+.L56	bst_mcas.s	/^.L56:$/
+.L57	bst_mcas.s	/^.L57:$/
+.L59	bst_mcas.s	/^.L59:$/
+.L60	bst_mcas.s	/^.L60:$/
+.L61	bst_mcas.s	/^.L61:$/
+.L63	bst_mcas.s	/^.L63:$/
+.L64	bst_mcas.s	/^.L64:$/
+.L66	bst_mcas.s	/^.L66:$/
+.L68	bst_mcas.s	/^.L68:$/
+.L69	bst_mcas.s	/^.L69:$/
+.L70	bst_mcas.s	/^.L70:$/
+.L71	bst_mcas.s	/^.L71:$/
+.L72	bst_mcas.s	/^.L72:$/
+.L73	bst_mcas.s	/^.L73:$/
+.L74	bst_mcas.s	/^.L74:$/
+.L75	bst_mcas.s	/^.L75:$/
+.L77	bst_mcas.s	/^.L77:$/
+.L84	bst_mcas.s	/^.L84:$/
+.L90	bst_mcas.s	/^.L90:$/
+.L91	bst_mcas.s	/^.L91:$/
+.L93	bst_mcas.s	/^.L93:$/
+.L94	bst_mcas.s	/^.L94:$/
+.L95	bst_mcas.s	/^.L95:$/
+.L96	bst_mcas.s	/^.L96:$/
+.L97	bst_mcas.s	/^.L97:$/
+.L98	bst_mcas.s	/^.L98:$/
+.L99	bst_mcas.s	/^.L99:$/
+.LFB75	bst_mcas.s	/^.LFB75:$/
+.LFB78	bst_mcas.s	/^.LFB78:$/
+.LFB79	bst_mcas.s	/^.LFB79:$/
+.LFB81	bst_mcas.s	/^.LFB81:$/
+.LFB82	bst_mcas.s	/^.LFB82:$/
+.LFB83	bst_mcas.s	/^.LFB83:$/
+.LFB84	bst_mcas.s	/^.LFB84:$/
+.LFB85	bst_mcas.s	/^.LFB85:$/
+.LFB87	bst_mcas.s	/^.LFB87:$/
+.LFE75	bst_mcas.s	/^.LFE75:$/
+.LFE78	bst_mcas.s	/^.LFE78:$/
+.LFE79	bst_mcas.s	/^.LFE79:$/
+.LFE81	bst_mcas.s	/^.LFE81:$/
+.LFE82	bst_mcas.s	/^.LFE82:$/
+.LFE83	bst_mcas.s	/^.LFE83:$/
+.LFE84	bst_mcas.s	/^.LFE84:$/
+.LFE85	bst_mcas.s	/^.LFE85:$/
+.LFE87	bst_mcas.s	/^.LFE87:$/
+ADD_TO	portable_defns.h	/^#define ADD_TO(_v,_x)                             /
+ALIGNED_ALLOC	portable_defns.h	/^#define ALIGNED_ALLOC(_s)                         /
+ALLOC	combined_mcas.c	/^static void *ALLOC(int size)$/
+ALLOC	mcas.c	/^static void *ALLOC(int size)$/
+ALLOC_ALONE	combined_mcas.c	/^static void *ALLOC_ALONE (int size)$/
+ALLOC_ALONE	mcas.c	/^static void *ALLOC_ALONE (int size)$/
+ALLOC_CHUNKS_PER_LIST	gc.c	52
+AL_LOCKED	bst_lock_fraser.c	74
+ARCH	Makefile	/^ARCH      := INTEL$/
+ARENA_SIZE	combined_mcas.c	38
+ARENA_SIZE	mcas.c	40
+AR_LOCKED	bst_lock_fraser.c	75
+ASFLAGS	Makefile	/^ASFLAGS     := -a64$/
+BLKS_PER_CHUNK	gc.c	78
+CACHE_LINE_SIZE	intel_defns.h	11
+CACHE_PAD	gc.c	/^    CACHE_PAD(0);$/
+CACHE_PAD	gc.c	/^    CACHE_PAD(1);$/
+CACHE_PAD	gc.c	/^    CACHE_PAD(2);$/
+CACHE_PAD	gc.c	/^    CACHE_PAD(3);$/
+CACHE_PAD	portable_defns.h	/^#define CACHE_PAD(_n) char __pad ## _n [CACHE_LINE/
+CACHE_PAD	set_harness.c	/^    CACHE_PAD(0);$/
+CACHE_PAD	set_harness.c	/^    CACHE_PAD(1);$/
+CACHE_PAD	set_harness.c	/^    CACHE_PAD(2);$/
+CALLER_TO_INTERNAL_KEY	set.h	/^#define CALLER_TO_INTERNAL_KEY(_k) ((_k) + 2)$/
+CAS32O	intel_defns.h	64
+CAS64O	intel_defns.h	65
+CASIO	intel_defns.h	/^#define CASIO(a,b,c) __sync_val_compare_and_swap(a/
+CASPO	intel_defns.h	/^#define CASPO(a,b,c) __sync_val_compare_and_swap(a/
+CC	Makefile	/^CC          := g++$/
+CC	Makefile	/^CC          := cc_r$/
+CC	Makefile	/^CC          := gcc$/
+CC	Makefile	/^CC          := gcc$/
+CC	Makefile	/^CC          := \/opt\/SUNWspro\/bin\/cc$/
+CC	Makefile	/^CC          := cc$/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DINTEL -fgnu-tm -mrtm -std=c++/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DPPC -q64 -w$/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DIA64 -fomit-frame-pointer$/
+CFLAGS	Makefile	/^CFLAGS      := -O3 -DMIPS -fomit-frame-pointer$/
+CFLAGS	Makefile	/^CFLAGS      := -xO3 -DSPARC sparc_mcas.il -xarch=v/
+CFLAGS	Makefile	/^CFLAGS      := -accept vaxc_keywords -O3 -DALPHA$/
+CFLAGS      +	Makefile	/^CFLAGS      += -fomit-frame-pointer -DWEAK_MEM_ORD/
+CFLAGS      +	Makefile	/^CFLAGS      += $(DEBUGGING)$/
+CHUNKS_PER_ALLOC	gc.c	172
+CLEAR_BLOCKED	portable_defns.h	/^#define CLEAR_BLOCKED(_qn) ADD_TO((_qn)->state, -S/
+CLS_RD	portable_defns.h	240
+CLS_WR	portable_defns.h	241
+COMMON_DEPS +	Makefile	/^COMMON_DEPS += Makefile $(wildcard *.h)$/
+CasDescriptor	combined_mcas.c	67
+CasDescriptor	mcas.c	69
+CasDescriptor_t	combined_mcas.c	32
+CasDescriptor_t	mcas.c	34
+CasEntry	combined_mcas.c	61
+CasEntry	mcas.c	63
+CasEntry_t	combined_mcas.c	33
+CasEntry_t	mcas.c	35
+DEBUGGING	Makefile	/^DEBUGGING := -DNDEBUG$/
+DELETE_HELPER	bst_lock_fraser.c	/^#define DELETE_HELPER(_d1, _d2)                   /
+DELETE_HELPER	bst_mcas.c	/^#define DELETE_HELPER(_d1, _d2)                   /
+DELETE_HELPER	combined_mcas.c	/^#define DELETE_HELPER(_d1, _d2)                   /
+ENTRIES_PER_RECLAIM_ATTEMPT	gc.c	58
+FALSE	portable_defns.h	35
+FAS	intel_defns.h	/^#define FAS(_a, _n)                               /
+FASIO	intel_defns.h	59
+FASPO	intel_defns.h	62
+FIND_HELPER	bst_lock_fraser.c	/^#define FIND_HELPER(_d1, _d2, _n, _ap, _a)        /
+FIND_HELPER	bst_mcas.c	/^#define FIND_HELPER(_d1, _d2, _n, _ap, _a)        /
+FIND_HELPER	combined_mcas.c	/^#define FIND_HELPER(_d1, _d2, _n, _ap, _a)        /
+FLIP	bst_lock_kung.c	/^#define FLIP(_d) ((_d)^1)$/
+FOLLOW	bst_lock_kung.c	/^#define FOLLOW(_n, _d) ((_d) ? (_n)->r : (_n)->l)$/
+FOLLOW	bst_lock_manber.c	/^#define FOLLOW(_n, _k) (((_n)->k < (_k)) ? (_n)->r/
+GARBAGE	bst_mcas.c	/^#define GARBAGE(_p)    ((node_t *)((int_addr_t)(_p/
+GARBAGE	combined_mcas.c	/^#define GARBAGE(_p)    ((node_t *)((int_addr_t)(_p/
+GARBAGE_FLAG	bst_lock_manber.c	44
+GC_HARNESS_TARGETS	Makefile	/^GC_HARNESS_TARGETS := skip_lock_perlist skip_lock_/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += skip_cas skip_mcas$/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += bst_lock_fraser bst_lock_man/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += bst_mcas$/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += rb_lock_concurrentwriters rb/
+GC_HARNESS_TARGETS +	Makefile	/^GC_HARNESS_TARGETS += rb_lock_mutex$/
+GET_VALUE	bst_lock_kung.c	/^#define GET_VALUE(_n) ((setval_t)((unsigned long)(/
+GET_VALUE	bst_lock_manber.c	/^#define GET_VALUE(_n) ((setval_t)((unsigned long)(/
+INITIALISE_NODES	gc.c	/^#define INITIALISE_NODES(_p,_c) memset((_p), INVAL/
+INTEL	intel_defns.h	8
+INVALID_BYTE	gc.c	39
+INVALID_FIELD	set.h	35
+IS_BLUE	bst_lock_kung.c	/^#define IS_BLUE(_n)      ((int)(_n)->v & 1)$/
+IS_GARBAGE	bst_lock_fraser.c	/^#define IS_GARBAGE(_n)      ((_n)->v == NULL)$/
+IS_GARBAGE	bst_lock_manber.c	/^#define IS_GARBAGE(_n)   ((int)(_n)->v & GARBAGE_F/
+IS_GARBAGE	bst_mcas.c	/^#define IS_GARBAGE(_p)      ((int)((int_addr_t)(_p/
+IS_GARBAGE	combined_mcas.c	/^#define IS_GARBAGE(_p)      ((int)((int_addr_t)(_p/
+IS_MCAS_OWNED	bst_mcas.c	/^#define IS_MCAS_OWNED(_p)   ((int)((int_addr_t)(_p/
+IS_MCAS_OWNED	combined_mcas.c	/^#define IS_MCAS_OWNED(_p)   ((int)((int_addr_t)(_p/
+IS_REDUNDANT	bst_lock_manber.c	/^#define IS_REDUNDANT(_n) ((int)(_n)->v & REDUNDANT/
+IS_THREAD	bst_lock_fraser.c	/^#define IS_THREAD(_p)       ((int)((int_addr_t)(_p/
+IS_THREAD	bst_mcas.c	/^#define IS_THREAD(_p)       ((int)((int_addr_t)(_p/
+IS_THREAD	combined_mcas.c	/^#define IS_THREAD(_p)       ((int)((int_addr_t)(_p/
+KEY_MAX	set.h	82
+KEY_MIN	set.h	81
+LDFLAGS	Makefile	/^LDFLAGS     := -pthread -fgnu-tm -mrtm -std=c++0x$/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread -q64$/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread$/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread$/
+LDFLAGS	Makefile	/^LDFLAGS     := -DSPARC sparc_mcas.il -xarch=v9b -l/
+LDFLAGS	Makefile	/^LDFLAGS     := -lpthread $/
+LEFT	bst_lock_kung.c	49
+LOCK	bst_lock_fraser.c	/^#define LOCK(_n, _qn, _flag)                      /
+LOCK	bst_lock_kung.c	/^#define LOCK(_n, _pqn)   mcs_lock(&(_n)->lock, (_p/
+LOCK	bst_lock_manber.c	/^#define LOCK(_n, _pqn)   mcs_lock(&(_n)->lock, (_p/
+LOG_KIND_FLOAT	set_harness.c	66
+LOG_KIND_INT	set_harness.c	64
+LOG_KIND_STRING	set_harness.c	65
+MARK_GARBAGE	bst_mcas.c	39
+MARK_GARBAGE	combined_mcas.c	626
+MARK_IN_PROGRESS	bst_mcas.c	35
+MARK_IN_PROGRESS	combined_mcas.c	79
+MARK_IN_PROGRESS	combined_mcas.c	622
+MARK_IN_PROGRESS	mcas.c	81
+MARK_PTR_TO_CD	bst_mcas.c	36
+MARK_PTR_TO_CD	combined_mcas.c	82
+MARK_PTR_TO_CD	combined_mcas.c	623
+MARK_PTR_TO_CD	mcas.c	84
+MARK_THREAD	bst_lock_fraser.c	43
+MARK_THREAD	bst_mcas.c	38
+MARK_THREAD	combined_mcas.c	625
+MAX_HOOKS	gc.c	45
+MAX_ITERATIONS	set_harness.c	51
+MAX_ITERATIONS	set_harness.c	54
+MAX_LOG_RECORDS	set_harness.c	62
+MAX_SIZES	gc.c	43
+MAX_THREADS	portable_defns.h	4
+MAX_WALL_TIME	set_harness.c	52
+MAX_WALL_TIME	set_harness.c	55
+MAYBE_GARBAGE	portable_defns.h	80
+MB	intel_defns.h	/^#define MB() __sync_synchronize \/\/__asm__ __volati/
+MB_NEAR_CAS	intel_defns.h	/^#define MB_NEAR_CAS()  WMB()$/
+MB_NEAR_CAS	portable_defns.h	/^#define MB_NEAR_CAS()  MB()$/
+MEM_FAIL	gc.c	/^#define MEM_FAIL(_s)                              /
+MK_BLUE	bst_lock_kung.c	/^#define MK_BLUE(_n)      ((_n)->v = (setval_t)((un/
+MK_GARBAGE	bst_lock_manber.c	/^#define MK_GARBAGE(_n)   \\$/
+MK_REDUNDANT	bst_lock_manber.c	/^#define MK_REDUNDANT(_n) \\$/
+Mset_harness	set_harness.c	/^int main (int argc, char **argv)$/
+NR_EPOCHS	gc.c	67
+NR_EPOCHS	gc.c	69
+NUM_LEVELS	set.h	31
+N_LOCKED	bst_lock_fraser.c	71
+PAL_LOCKED	bst_lock_fraser.c	72
+PAR_LOCKED	bst_lock_fraser.c	73
+PROCESS_VAL	bst_mcas.c	/^#define PROCESS_VAL(_v,_pv)                       /
+PROCESS_VAL	combined_mcas.c	/^#define PROCESS_VAL(_v,_pv)                       /
+PROFILE_GC	gc.c	36
+P_LOCKED	bst_lock_fraser.c	70
+RDTICK	intel_defns.h	/^#define RDTICK() \\$/
+READ_FIELD	portable_defns.h	/^#define READ_FIELD(_x,_f)                         /
+READ_FIELD	portable_defns.h	/^#define READ_FIELD(_x,_f) ((_x) = (_f))$/
+READ_FIELD	set.h	/^#define READ_FIELD(_x,_f)                         /
+READ_FIELD	set.h	/^#define READ_FIELD(_x,_f) ((_x) = (_f))$/
+READ_LINK	bst_mcas.c	/^#define READ_LINK(_var, _link)                    /
+READ_LINK	combined_mcas.c	/^#define READ_LINK(_var, _link)                    /
+REDUNDANT_FLAG	bst_lock_manber.c	45
+RIGHT	bst_lock_kung.c	50
+RMB	intel_defns.h	/^#define RMB() MB()$/
+RMB_NEAR_CAS	intel_defns.h	/^#define RMB_NEAR_CAS() WMB()$/
+RMB_NEAR_CAS	portable_defns.h	/^#define RMB_NEAR_CAS() RMB()$/
+SENTINEL_KEYMAX	set.h	37
+SENTINEL_KEYMIN	set.h	36
+SIZEOF_GLOBAL_LOG	set_harness.c	158
+STATUS_ABORTED	combined_mcas.c	59
+STATUS_ABORTED	mcas.c	61
+STATUS_FAILED	combined_mcas.c	58
+STATUS_FAILED	mcas.c	60
+STATUS_IN_PROGRESS	combined_mcas.c	56
+STATUS_IN_PROGRESS	mcas.c	58
+STATUS_SUCCEEDED	combined_mcas.c	57
+STATUS_SUCCEEDED	mcas.c	59
+STRONG_READ_LINK	bst_mcas.c	/^#define STRONG_READ_LINK(_var, _link)             /
+STRONG_READ_LINK	combined_mcas.c	/^#define STRONG_READ_LINK(_var, _link)             /
+ST_BLOCKED	portable_defns.h	247
+ST_NOSUCC	portable_defns.h	243
+ST_RDSUCC	portable_defns.h	244
+ST_SUCCMASK	portable_defns.h	246
+ST_WRSUCC	portable_defns.h	245
+TARGETS	Makefile	/^TARGETS    := $(GC_HARNESS_TARGETS)$/
+TARGETS    +	Makefile	/^TARGETS    += rb_stm_fraser rb_stm_herlihy rb_stm_/
+TARGETS    +	Makefile	/^TARGETS    += skip_stm_fraser skip_stm_herlihy ski/
+THREAD	bst_lock_fraser.c	/^#define THREAD(_p)     ((node_t *)((int_addr_t)(_p/
+THREAD	bst_mcas.c	/^#define THREAD(_p)     ((node_t *)((int_addr_t)(_p/
+THREAD	combined_mcas.c	/^#define THREAD(_p)     ((node_t *)((int_addr_t)(_p/
+THREAD_FLAGS	set_harness.c	338
+THREAD_TEST	set_harness.c	337
+TRUE	portable_defns.h	36
+TVAL	set_harness.c	/^#define TVAL(x) ((x.tv_sec * 1000000) + x.tv_usec)/
+UNGARBAGE	bst_mcas.c	/^#define UNGARBAGE(_p) ((node_t *)((int_addr_t)(_p)/
+UNGARBAGE	combined_mcas.c	/^#define UNGARBAGE(_p) ((node_t *)((int_addr_t)(_p)/
+UNLOCK	bst_lock_fraser.c	/^#define UNLOCK(_n, _qn, _flag)                    /
+UNLOCK	bst_lock_kung.c	/^#define UNLOCK(_n, _pqn) mcs_unlock(&(_n)->lock, (/
+UNLOCK	bst_lock_manber.c	/^#define UNLOCK(_n, _pqn) mcs_unlock(&(_n)->lock, (/
+UNTHREAD	bst_lock_fraser.c	/^#define UNTHREAD(_p) ((node_t *)((int_addr_t)(_p)&/
+UNTHREAD	bst_mcas.c	/^#define UNTHREAD(_p) ((node_t *)((int_addr_t)(_p)&/
+UNTHREAD	combined_mcas.c	/^#define UNTHREAD(_p) ((node_t *)((int_addr_t)(_p)&/
+UPDATE	bst_lock_kung.c	/^#define UPDATE(_n, _d, _x) ((_d) ? ((_n)->r = (_x)/
+VOLATILE	intel_defns.h	80
+WEAK_DEP_ORDER_MB	portable_defns.h	/^#define WEAK_DEP_ORDER_MB()  MB()$/
+WEAK_DEP_ORDER_MB	portable_defns.h	/^#define WEAK_DEP_ORDER_MB()  ((void)0)$/
+WEAK_DEP_ORDER_RMB	portable_defns.h	/^#define WEAK_DEP_ORDER_RMB() RMB()$/
+WEAK_DEP_ORDER_RMB	portable_defns.h	/^#define WEAK_DEP_ORDER_RMB() ((void)0)$/
+WEAK_DEP_ORDER_WMB	portable_defns.h	/^#define WEAK_DEP_ORDER_WMB() WMB()$/
+WEAK_DEP_ORDER_WMB	portable_defns.h	/^#define WEAK_DEP_ORDER_WMB() ((void)0)$/
+WEAK_READ_LINK	bst_mcas.c	/^#define WEAK_READ_LINK(_var, _link)               /
+WEAK_READ_LINK	combined_mcas.c	/^#define WEAK_READ_LINK(_var, _link)               /
+WMB	intel_defns.h	/^#define WMB(o) __asm__ __volatile__ ("" : : : "mem/
+WMB_NEAR_CAS	intel_defns.h	/^#define WMB_NEAR_CAS() WMB()$/
+WMB_NEAR_CAS	portable_defns.h	/^#define WMB_NEAR_CAS() WMB()$/
+_Z10set_lookupP6set_stm	bst_mcas.s	/^_Z10set_lookupP6set_stm:$/
+_Z10set_removeP6set_stm	bst_mcas.s	/^_Z10set_removeP6set_stm:$/
+_Z10set_updateP6set_stmPvi	bst_mcas.s	/^_Z10set_updateP6set_stmPvi:$/
+_Z19_init_set_subsystemv	bst_mcas.s	/^_Z19_init_set_subsystemv:$/
+_Z4mcasiPPvS_S_z	bst_mcas.s	/^_Z4mcasiPPvS_S_z:$/
+_Z9mcas_initv	bst_mcas.s	/^_Z9mcas_initv:$/
+_Z9set_allocv	bst_mcas.s	/^_Z9set_allocv:$/
+_ZL10mcas_fixupPPvS_	bst_mcas.s	/^_ZL10mcas_fixupPPvS_:$/
+_ZL8get_ptstv.part.1	bst_mcas.s	/^_ZL8get_ptstv.part.1:$/
+__GC_H__	gc.h	2
+__INTEL_DEFNS_H__	intel_defns.h	2
+__PORTABLE_DEFNS_H__	portable_defns.h	2
+__PTST_H__	ptst.h	10
+__RANDOM_H__	random.h	9
+__SET_H__	set.h	2
+__SET_IMPLEMENTATION__	bst_lock_fraser.c	25
+__SET_IMPLEMENTATION__	bst_lock_kung.c	26
+__SET_IMPLEMENTATION__	bst_lock_manber.c	26
+__SET_IMPLEMENTATION__	bst_mcas.c	25
+__SET_IMPLEMENTATION__	combined_mcas.c	612
+_destroy_gc_subsystem	gc.c	/^void _destroy_gc_subsystem(void)$/
+_init_gc_subsystem	gc.c	/^void _init_gc_subsystem(void)$/
+_init_ptst_subsystem	ptst.c	/^void _init_ptst_subsystem(void) $/
+_init_set_subsystem	bst_lock_fraser.c	/^void _init_set_subsystem(void)$/
+_init_set_subsystem	bst_lock_kung.c	/^void _init_set_subsystem(void)$/
+_init_set_subsystem	bst_lock_manber.c	/^void _init_set_subsystem(void)$/
+_init_set_subsystem	bst_mcas.c	/^void _init_set_subsystem(void)$/
+_init_set_subsystem	combined_mcas.c	/^void _init_set_subsystem(void)$/
+_remove	bst_lock_kung.c	/^static void _remove(ptst_t *ptst, node_t *a, int d/
+_u16	intel_defns.h	102
+_u32	intel_defns.h	103
+_u64	intel_defns.h	104
+_u8	intel_defns.h	101
+add_chunks_to_list	gc.c	/^static void add_chunks_to_list(chunk_t *ch, chunk_/
+alarm_handler	set_harness.c	/^static void alarm_handler( int arg)$/
+alarm_time	set_harness.c	183
+all	Makefile	/^all: $(TARGETS) replay$/
+alloc	gc.c	123
+alloc	gc.c	156
+alloc_chunks	gc.c	157
+alloc_more_chunks	gc.c	/^static chunk_t *alloc_more_chunks(void)$/
+alloc_size	gc.c	124
+allocations	gc.c	127
+arena	combined_mcas.c	44
+arena	mcas.c	46
+arena_lim	combined_mcas.c	45
+arena_lim	mcas.c	47
+async_page	gc.c	147
+async_page_state	gc.c	148
+attr	set_harness.c	341
+blk	gc.c	84
+blk_sizes	gc.c	108
+bool_t	portable_defns.h	34
+cas_sz	combined_mcas.c	93
+cas_sz	mcas.c	95
+chunk_cache	gc.c	153
+chunk_from_cache	gc.c	/^static chunk_t *chunk_from_cache(gc_t *gc)$/
+chunk_st	gc.c	80
+chunk_t	gc.c	79
+clean	Makefile	/^clean:$/
+clean_descriptor	combined_mcas.c	/^static void clean_descriptor (CasDescriptor_t *cd)/
+clean_descriptor	mcas.c	/^static void clean_descriptor (CasDescriptor_t *cd)/
+copy	bst_lock_manber.c	67
+count	ptst.h	24
+critical_enter	ptst.c	/^ptst_t *critical_enter(void)$/
+critical_exit	ptst.h	/^#define critical_exit(_p) gc_exit(_p)$/
+current	gc.c	92
+delete_by_rotation	bst_lock_kung.c	/^static void delete_by_rotation(ptst_t *ptst, node_/
+dir	bst_lock_fraser.c	249
+dir	bst_mcas.c	262
+dir	combined_mcas.c	849
+done_time	set_harness.c	171
+done_tms	set_harness.c	172
+dump_log	set_harness.c	/^static void dump_log (void) {$/
+end	set_harness.c	154
+entries	combined_mcas.c	73
+entries	mcas.c	75
+entries_since_reclaim	gc.c	139
+epoch	gc.c	136
+f	obj.disass	/^  400200:	2f                   	(bad)  $/
+fc	combined_mcas.c	72
+fc	mcas.c	74
+find	bst_lock_kung.c	/^static node_t *find(node_t *n, setkey_t k, qnode_t/
+free_chunks	gc.c	120
+garbage	gc.c	151
+garbage_tail	gc.c	152
+gc	ptst.h	26
+gc_add_allocator	gc.c	/^int gc_add_allocator(int alloc_size)$/
+gc_add_hook	gc.c	/^int gc_add_hook(hook_fn_t fn)$/
+gc_add_ptr_to_hook_list	gc.c	/^void gc_add_ptr_to_hook_list(ptst_t *ptst, void *p/
+gc_alloc	gc.c	/^void *gc_alloc(ptst_t *ptst, int alloc_id)$/
+gc_async_barrier	gc.c	/^static void gc_async_barrier(gc_t *gc)$/
+gc_async_barrier	gc.c	/^#define gc_async_barrier(_g) ((void)0)$/
+gc_enter	gc.c	/^void gc_enter(ptst_t *ptst)$/
+gc_exit	gc.c	/^void gc_exit(ptst_t *ptst)$/
+gc_free	gc.c	/^void gc_free(ptst_t *ptst, void *p, int alloc_id) /
+gc_global	gc.c	129
+gc_global_st	gc.c	87
+gc_id	bst_lock_fraser.c	67
+gc_id	bst_lock_kung.c	71
+gc_id	bst_lock_manber.c	76
+gc_id	bst_mcas.c	70
+gc_id	combined_mcas.c	657
+gc_init	gc.c	/^gc_t *gc_init(void)$/
+gc_reclaim	gc.c	/^static void gc_reclaim(void)$/
+gc_remove_allocator	gc.c	/^void gc_remove_allocator(int alloc_id)$/
+gc_remove_hook	gc.c	/^void gc_remove_hook(int hook_id)$/
+gc_st	gc.c	133
+gc_t	gc.h	4
+gc_unsafe_free	gc.c	/^void gc_unsafe_free(ptst_t *ptst, void *p, int all/
+get_alloc_chunk	gc.c	/^static chunk_t *get_alloc_chunk(gc_t *gc, int i)$/
+get_empty_chunks	gc.c	/^static chunk_t *get_empty_chunks(int n)$/
+get_filled_chunks	gc.c	/^static chunk_t *get_filled_chunks(int n, int sz)$/
+get_interval	portable_defns.h	/^#define get_interval(_i)                          /
+get_marked_ref	portable_defns.h	/^#define get_marked_ref(_p)      ((void *)(((unsign/
+get_marked_reference	combined_mcas.c	/^#define get_marked_reference(p,m) ((void *) (((ptr/
+get_marked_reference	mcas.c	/^#define get_marked_reference(p,m) ((void *) (((ptr/
+get_markedness	combined_mcas.c	/^#define get_markedness(p) (((ptr_int) (p)) & 3)$/
+get_markedness	mcas.c	/^#define get_markedness(p) (((ptr_int) (p)) & 3)$/
+get_ptst	combined_mcas.c	/^static per_thread_state_t *get_ptst (void)$/
+get_ptst	mcas.c	/^static per_thread_state_t *get_ptst (void)$/
+get_unmarked_ref	portable_defns.h	/^#define get_unmarked_ref(_p)    ((void *)(((unsign/
+get_unmarked_reference	combined_mcas.c	/^#define get_unmarked_reference(p) ((void *) (((ptr/
+get_unmarked_reference	mcas.c	/^#define get_unmarked_reference(p) ((void *) (((ptr/
+global_log	set_harness.c	159
+go	set_harness.c	162
+hook	gc.c	160
+hook_fn_t	gc.h	27
+hook_fns	gc.c	112
+hook_id	bst_lock_manber.c	76
+i	gc.c	83
+id	combined_mcas.c	42
+id	mcas.c	44
+id	ptst.h	20
+inreclaim	gc.c	96
+int_addr_t	portable_defns.h	32
+interval	set_harness.c	160
+interval_t	portable_defns.h	58
+is_marked_ref	portable_defns.h	/^#define is_marked_ref(_p)       (((unsigned long)(/
+k	bst_lock_fraser.c	55
+k	bst_lock_kung.c	60
+k	bst_lock_manber.c	64
+k	set.h	13
+key	set_harness.c	155
+kind	set_harness.c	70
+l	bst_lock_fraser.c	57
+l	bst_lock_kung.c	62
+l	bst_lock_manber.c	66
+l	set.h	15
+length	combined_mcas.c	69
+length	mcas.c	71
+lock	bst_lock_fraser.c	58
+lock	bst_lock_kung.c	63
+lock	bst_lock_manber.c	68
+locked	portable_defns.h	186
+log_float	set_harness.c	/^static void log_float (char *name, float val) {$/
+log_int	set_harness.c	/^static void log_int (char *name, int val) {$/
+log_max_key	set_harness.c	164
+log_record_t	set_harness.c	74
+log_records	set_harness.c	76
+log_st	set_harness.c	152
+log_string	set_harness.c	/^static void log_string (char *name, char *val) {$/
+log_t	set_harness.c	157
+max_key	set_harness.c	164
+mcas	combined_mcas.c	/^bool_t mcas (int n, $/
+mcas	mcas.c	/^bool_t mcas (int n, $/
+mcas0	combined_mcas.c	/^static bool_t mcas0 (per_thread_state_t *ptst, Cas/
+mcas0	mcas.c	/^static bool_t mcas0 (per_thread_state_t *ptst, Cas/
+mcas_fixup	combined_mcas.c	/^static bool_t mcas_fixup (void **ptr,$/
+mcas_fixup	mcas.c	/^static bool_t mcas_fixup (void **ptr,$/
+mcas_init	combined_mcas.c	/^void mcas_init (void)$/
+mcas_init	mcas.c	/^void mcas_init (void)$/
+mcas_ptst_key	combined_mcas.c	49
+mcas_ptst_key	mcas.c	51
+mcs_init	portable_defns.h	/^static void mcs_init(mcs_lock_t *lock)$/
+mcs_lock	portable_defns.h	/^static void mcs_lock(mcs_lock_t *lock, qnode_t *qn/
+mcs_lock_t	portable_defns.h	191
+mcs_unlock	portable_defns.h	/^static void mcs_unlock(mcs_lock_t *lock, qnode_t */
+mrsw_init	portable_defns.h	/^static void mrsw_init(mrsw_lock_t *lock)$/
+mrsw_lock_t	portable_defns.h	256
+mrsw_qnode_st	portable_defns.h	239
+mrsw_qnode_t	portable_defns.h	237
+name	set_harness.c	69
+new_val	combined_mcas.c	64
+new_val	mcas.c	66
+new_val_arena	combined_mcas.c	/^static void new_val_arena (per_thread_state_t *pts/
+new_val_arena	mcas.c	/^static void new_val_arena (per_thread_state_t *pts/
+new_val_descriptor	combined_mcas.c	/^static CasDescriptor_t *new_val_descriptor (per_th/
+new_val_descriptor	mcas.c	/^static CasDescriptor_t *new_val_descriptor (per_th/
+next	gc.c	82
+next	portable_defns.h	185
+next	portable_defns.h	249
+next	ptst.h	23
+next_descriptor	combined_mcas.c	43
+next_descriptor	mcas.c	45
+next_id	ptst.c	35
+next_thread_id	combined_mcas.c	113
+next_thread_id	mcas.c	115
+next_writer	portable_defns.h	254
+node_class	portable_defns.h	242
+node_st	bst_lock_fraser.c	53
+node_st	bst_lock_kung.c	58
+node_st	bst_lock_manber.c	62
+node_st	set.h	11
+node_t	bst_lock_fraser.c	50
+node_t	bst_lock_kung.c	55
+node_t	bst_lock_manber.c	59
+node_t	bst_mcas.c	54
+node_t	combined_mcas.c	641
+node_t	set.h	8
+nr_hooks	gc.c	111
+nr_sizes	gc.c	107
+nrand	set_harness.c	/^#define nrand(_r) (((_r) = (_r) * 1103515245) + 12/
+num_log_records	set_harness.c	78
+num_ptrs	combined_mcas.c	94
+num_ptrs	mcas.c	96
+num_threads	set_harness.c	167
+old	combined_mcas.c	63
+old	mcas.c	65
+old_val	set_harness.c	156
+p	bst_lock_kung.c	62
+p	bst_lock_manber.c	66
+p0	bst_mcas.s	/^p0:$/
+p0	combined_mcas.c	92
+p0	mcas.c	94
+p1	bst_mcas.s	/^p1:$/
+p1	combined_mcas.c	96
+p1	mcas.c	98
+pad	combined_mcas.c	51
+pad	mcas.c	53
+pad128	combined_mcas.c	51
+pad128	mcas.c	53
+pad128_t	combined_mcas.c	51
+pad128_t	mcas.c	53
+page_size	gc.c	104
+per_thread_state_t	combined_mcas.c	34
+per_thread_state_t	combined_mcas.c	40
+per_thread_state_t	mcas.c	36
+per_thread_state_t	mcas.c	42
+predecessor_substitution	bst_lock_manber.c	/^static void predecessor_substitution(ptst_t *ptst,/
+processors	set_harness.c	177
+proportion	set_harness.c	169
+pt	combined_mcas.c	70
+pt	mcas.c	72
+pthread_mutex_init	intel_defns.h	/^#define pthread_mutex_init(_m,_i) \\$/
+ptr	combined_mcas.c	62
+ptr	mcas.c	64
+ptr_int	combined_mcas.c	77
+ptr_int	mcas.c	79
+ptr_mult	combined_mcas.c	95
+ptr_mult	mcas.c	97
+ptst_destructor	ptst.c	/^static void ptst_destructor(ptst_t *ptst) $/
+ptst_first	ptst.h	/^#define ptst_first()  (ptst_list)$/
+ptst_key	ptst.c	32
+ptst_list	ptst.c	33
+ptst_next	ptst.h	/^#define ptst_next(_p) ((_p)->next)$/
+ptst_st	ptst.h	17
+ptst_t	ptst.h	12
+ptsts	combined_mcas.c	114
+ptsts	mcas.c	116
+qnode_t	portable_defns.h	182
+qnode_t	portable_defns.h	184
+r	bst_lock_fraser.c	57
+r	bst_lock_kung.c	62
+r	bst_lock_manber.c	66
+r	set.h	15
+rand	ptst.h	27
+rand_init	random.h	/^#define rand_init(_ptst) \\$/
+rand_next	random.h	/^#define rand_next(_ptst) \\$/
+rand_t	random.h	11
+rb_stm_fraser	Makefile	/^rb_stm_fraser: rb_stm.o stm_fraser.o set_harness.o/
+rb_stm_herlihy	Makefile	/^rb_stm_herlihy: rb_stm.o stm_herlihy.o set_harness/
+rb_stm_lock	Makefile	/^rb_stm_lock: rb_stm.o stm_lock.o set_harness.o pts/
+rc	combined_mcas.c	71
+rc	mcas.c	73
+rc_delta_descriptor	combined_mcas.c	/^static int rc_delta_descriptor (CasDescriptor_t *c/
+rc_delta_descriptor	mcas.c	/^static int rc_delta_descriptor (CasDescriptor_t *c/
+rc_down_descriptor	combined_mcas.c	/^static void rc_down_descriptor (CasDescriptor_t *c/
+rc_down_descriptor	mcas.c	/^static void rc_down_descriptor (CasDescriptor_t *c/
+rc_up_descriptor	combined_mcas.c	/^static void rc_up_descriptor (CasDescriptor_t *cd)/
+rc_up_descriptor	mcas.c	/^static void rc_up_descriptor (CasDescriptor_t *cd)/
+rd_lock	portable_defns.h	/^static void rd_lock(mrsw_lock_t *lock, mrsw_qnode_/
+rd_unlock	portable_defns.h	/^static void rd_unlock(mrsw_lock_t *lock, mrsw_qnod/
+read_barrier	combined_mcas.c	/^static void *read_barrier (void **ptr)$/
+read_barrier	mcas.c	/^static void *read_barrier (void **ptr)$/
+read_barrier_lite	combined_mcas.c	/^static void *read_barrier_lite (void **ptr)$/
+read_barrier_lite	mcas.c	/^static void *read_barrier_lite (void **ptr)$/
+read_from_cd	combined_mcas.c	/^static void *read_from_cd (void **ptr, CasDescript/
+read_from_cd	mcas.c	/^static void *read_from_cd (void **ptr, CasDescript/
+reader_count	portable_defns.h	255
+reclaim_attempts_since_yield	gc.c	143
+redundancy_removal	bst_lock_manber.c	/^static void redundancy_removal(ptst_t *ptst, void /
+release_descriptor	combined_mcas.c	/^static void release_descriptor (CasDescriptor_t *c/
+release_descriptor	mcas.c	/^static void release_descriptor (CasDescriptor_t *c/
+replay	Makefile	/^replay: %: %.c $(COMMON_DEPS)$/
+root	bst_lock_fraser.c	63
+root	bst_lock_kung.c	68
+root	bst_lock_manber.c	73
+root	set.h	20
+rotate	bst_lock_kung.c	/^static node_t *rotate(ptst_t *ptst, node_t *a, int/
+s_load	portable_defns.h	/^static unsigned int s_load(unsigned long long *ptr/
+s_store	portable_defns.h	/^static void s_store(unsigned long long *ptr, unsig/
+search	bst_lock_fraser.c	/^static node_t *search(set_t *s, setkey_t k, node_t/
+search	bst_mcas.c	/^static node_t *search(set_t *s, setkey_t k, node_t/
+search	combined_mcas.c	/^static node_t *search(set_t *s, setkey_t k, node_t/
+sentinel	bst_lock_fraser.c	64
+sentinel	set.h	21
+set	set_harness.c	185
+set_alloc	bst_lock_fraser.c	/^set_t *set_alloc(void)$/
+set_alloc	bst_lock_kung.c	/^set_t *set_alloc(void)$/
+set_alloc	bst_lock_manber.c	/^set_t *set_alloc(void)$/
+set_alloc	bst_mcas.c	/^set_t *set_alloc(void)$/
+set_alloc	combined_mcas.c	/^set_t *set_alloc(void)$/
+set_lookup	bst_lock_fraser.c	/^setval_t set_lookup(set_t *s, setkey_t k)$/
+set_lookup	bst_lock_kung.c	/^setval_t set_lookup(set_t *s, setkey_t k)$/
+set_lookup	bst_lock_manber.c	/^setval_t set_lookup(set_t *s, setkey_t k)$/
+set_lookup	bst_mcas.c	/^setval_t set_lookup(set_t *s, setkey_t k)$/
+set_lookup	combined_mcas.c	/^setval_t set_lookup(set_t *s, setkey_t k)$/
+set_remove	bst_lock_fraser.c	/^setval_t set_remove(set_t *s, setkey_t k)$/
+set_remove	bst_lock_kung.c	/^setval_t set_remove(set_t *s, setkey_t k)$/
+set_remove	bst_lock_manber.c	/^setval_t set_remove(set_t *s, setkey_t k)$/
+set_remove	bst_mcas.c	/^setval_t set_remove(set_t *s, setkey_t k)$/
+set_remove	combined_mcas.c	/^setval_t set_remove(set_t *s, setkey_t k)$/
+set_st	bst_lock_fraser.c	61
+set_st	bst_lock_kung.c	66
+set_st	bst_lock_manber.c	71
+set_st	set.h	18
+set_t	bst_lock_fraser.c	51
+set_t	bst_lock_kung.c	56
+set_t	bst_lock_manber.c	60
+set_t	bst_mcas.c	55
+set_t	combined_mcas.c	642
+set_t	set.h	9
+set_update	bst_lock_fraser.c	/^setval_t set_update(set_t *s, setkey_t k, setval_t/
+set_update	bst_lock_kung.c	/^setval_t set_update(set_t *s, setkey_t k, setval_t/
+set_update	bst_lock_manber.c	/^setval_t set_update(set_t *s, setkey_t k, setval_t/
+set_update	bst_mcas.c	/^setval_t set_update(set_t *s, unsigned long k, voi/
+set_update	combined_mcas.c	/^setval_t set_update(set_t *s, unsigned long k, voi/
+setkey_t	set.h	5
+setval_t	set.h	6
+shared	set_harness.c	187
+skip_lock_perlist.o	Makefile	/^skip_lock_perlist.o: skip_lock.c $(COMMON_DEPS)$/
+skip_lock_pernode.o	Makefile	/^skip_lock_pernode.o: skip_lock.c $(COMMON_DEPS)$/
+skip_lock_perpointer.o	Makefile	/^skip_lock_perpointer.o: skip_lock.c $(COMMON_DEPS)/
+skip_mcas.o	Makefile	/^skip_mcas.o: skip_mcas.c mcas.c $(COMMON_DEPS)$/
+skip_stm_fraser	Makefile	/^skip_stm_fraser: skip_stm.o stm_fraser.o set_harne/
+skip_stm_herlihy	Makefile	/^skip_stm_herlihy: skip_stm.o stm_herlihy.o set_har/
+skip_stm_lock	Makefile	/^skip_stm_lock: skip_stm.o stm_lock.o set_harness.o/
+start	set_harness.c	154
+start_time	set_harness.c	171
+start_tms	set_harness.c	172
+state	portable_defns.h	248
+status	combined_mcas.c	68
+status	mcas.c	70
+strong_ll	portable_defns.h	/^static unsigned int strong_ll(unsigned long long */
+strong_sc	portable_defns.h	/^static int strong_sc(unsigned long long *ptr, int /
+strong_search	bst_lock_manber.c	/^static node_t *strong_search(node_t *n, setkey_t k/
+strong_vl	portable_defns.h	/^static int strong_vl(unsigned long long *ptr, int /
+successes	set_harness.c	174
+tail	portable_defns.h	190
+tail	portable_defns.h	253
+test_multithreaded	set_harness.c	/^static void test_multithreaded (void)$/
+thread_start	set_harness.c	/^static void *thread_start(void *arg)$/
+threads_initialised1	set_harness.c	163
+threads_initialised2	set_harness.c	165
+threads_initialised3	set_harness.c	166
+tick_t	intel_defns.h	92
+total_size	gc.c	126
+tree_mcas.o	Makefile	/^tree_mcas.o: tree_mcas.c mcas.c $(COMMON_DEPS)$/
+tstp_handler	set_harness.c	/^static void tstp_handler(int sig, siginfo_t *info,/
+u	bst_mcas	12
+v	bst_lock_fraser.c	56
+v	bst_lock_kung.c	61
+v	bst_lock_manber.c	65
+v	set.h	14
+val	set_harness.c	156
+val_float	set_harness.c	73
+val_int	set_harness.c	71
+val_string	set_harness.c	72
+weak_find	bst_lock_kung.c	/^static node_t *weak_find(node_t *n, setkey_t k)$/
+weak_search	bst_lock_manber.c	/^static node_t *weak_search(node_t *n, setkey_t k)$/
+wr_lock	portable_defns.h	/^static void wr_lock(mrsw_lock_t *lock, mrsw_qnode_/
+wr_unlock	portable_defns.h	/^static void wr_unlock(mrsw_lock_t *lock, mrsw_qnod/
